@@ -1,0 +1,149 @@
+@charset "UTF-8";
+        body,input { 
+            height: 100%;
+            font-size:15px; 
+        font-family: "Allerta Stencil", Sans-serif; 
+        } 
+          
+        * { 
+            box-sizing: border-box; 
+        } 
+          
+        h1 { 
+        font-family: "Tangerine", serif;
+        font-style: oblique;
+            text-align:center; 
+            color:indigo; 
+            font-size:50px; 
+            -webkit-text-stroke: 1px black; 
+        } 
+td {
+  font-size: 24px;
+  font-style: oblique;
+  color:#7D0552;
+}
+ 
+        body{ 
+        	background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+            /* background-color: silver; */
+            } 
+             
+      
+        /* Styling the form container */
+        .container { 
+            position: absolute; 
+            left: 28px; 
+            top: 50px; 
+            margin: 20px; 
+            max-width: 300px; 
+            padding: 16px; 
+        } 
+  
+        b { 
+            color: green; 
+            font-size:26px; 
+            -webkit-text-stroke: 1px black; 
+        } 
+      
+        /* Full-width input */
+        input[type=text],  input[type=email],
+        input[type=password] { 
+        font-family: 'Tangerine', serif;
+            width: 100%; 
+            padding: 10px; 
+            margin: 15px 0px; 
+             border-radius: 12px;
+            border: 2px solid green; 
+            resize: vertical;
+        } 
+          
+     input[type=submit] { 
+     font-family: 'Tangerine', serif;
+     font-style: oblique;
+color:black;
+          	font-size:30px; 
+          	width: 75%; 
+            padding: 12px; 
+            margin: 12px 0px; 
+            border: 2px solid; 
+            cursor: pointer;
+           background-color: #008CBA;
+            border-radius: 12px;
+            float: right;
+            
+        }  
+  
+          
+/*     input[value]{font-size:30px; 
+          	width: 75%; 
+            padding: 12px; 
+            margin: 12px 0px; 
+            border: 2px solid; 
+            background-color : #4CAF50;
+        } */
+          
+/*   input { margin-right: 10px; } */
+
+tr:hover {background-color: #f5f5f5;}
+
+      .tooltip {
+    	position: absolute;
+   		display: inline-block;   
+   		border-bottom: 1px dotted black; 
+}
+.tooltip .tooltiptext {
+	font-size:15px;
+	color:blue;
+    margin-left:9px;
+    width : 320px;
+    visibility: hidden;
+    background-color: #FFF;
+    border-radius:4px;
+    border: 1px solid #aeaeae;
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    margin-top : -15px; 
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 5%;
+    right: 100%;  
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #aeaeae transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}   
+      @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 200px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 200px) {
+/* Styles */
+}
+ button{
+
+  width: 80px;
+  margin: auto;
+ 
+}
+    

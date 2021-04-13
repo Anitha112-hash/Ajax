@@ -1,0 +1,21 @@
+/* @charset "UTF-8"; */
+
+body  {
+  background-image: url('https://image.freepik.com/free-vector/abstract-low-poly-design-background_1048-8196.jpg');
+}
+
+ h1 { 
+            text-align:center; 
+            color:black; 
+            -webkit-text-stroke: 1px black; 
+        } 
+        
+        p{ 
+         font-family: "Tangerine", serif;
+        font-style: oblique;
+            text-align:center; 
+            color:red; 
+            font-size:50px; 
+            -webkit-text-stroke: 1px black; 
+         
+        }
